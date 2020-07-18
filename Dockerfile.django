@@ -1,0 +1,28 @@
+FROM python:3.6
+MAINTAINER VChao
+
+ADD sources.list /etc/apt/
+ADD requirements.txt /home/app/
+
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32 && \
+    apt-get clean &&  \
+    apt-get update && \ 
+    apt-get -y install \
+    build-essential \
+    libffi-dev \
+    python3.6-dev\
+    automake \
+    autoconf \
+	netcat \
+	cron \
+    libtool && \
+    cd /home/app/ && \
+    pip3 install -r requirements.txt -i https://pypi.douban.com/simple/ && \
+    BUILD_LIB=1 pip3 install ssdeep -i https://pypi.douban.com/simple/ && \
+    pip install mysqlclient -i https://pypi.douban.com/simple/
+
+WORKDIR /home/app/src/
+COPY entry_point.sh  /home/app/src/
+RUN chmod +x entry_point.sh
+COPY ./binary_django /home/app/src
+COPY run_web.sh /home/app/src/

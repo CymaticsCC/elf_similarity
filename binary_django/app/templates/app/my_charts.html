@@ -1,0 +1,141 @@
+{% extends "app/base_site.html" %}
+
+{% block title %} ECharts {% endblock title %}
+
+{% block stylesheets %}
+  {{ block.super }}
+{% endblock stylesheets %}
+
+{% block content %}
+  <div class="right_col" role="main">
+    <div class="">
+      <div class="page-title">
+        <div class="title_left">
+          <h3>Echarts <small>Some examples to get you started</small></h3>
+        </div>
+
+        <div class="title_right">
+          <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="row">
+        <div class="col-md-12 col-sm-8 col-xs-12" >
+          <div class="x_panel">
+            <div class="x_title">
+              <h2>Bar Graph</h2>
+              <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Settings 1</a>
+                    </li>
+                    <li><a href="#">Settings 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+              <div id="test_binary" style="height:1000px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
+
+{% block javascripts %}
+  {{ block.super }}
+  <!-- ECharts -->
+    
+  <script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts.min.js"></script> 
+  <script src="/static/build/js/dataTool.min.js"></script> 
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+
+    var my_echars_binary = echarts.init(document.getElementById('test_binary'));
+    my_echars_binary.showLoading()
+
+    $.get('relations.json',function(binary_json) {
+        my_echars_binary.hideLoading()
+
+        binary_json = JSON.parse(binary_json);
+        var opinion = {
+            legend: 
+                {
+                x :'left',
+                // selectedMode: 'single',
+                //data:['xx1','yy1','xx2','yy2'],
+                data: binary_json.categories.map(function (a) {
+                    return a.name;
+                })
+        },
+        tooltip:{},
+        series: [
+                   
+            {
+            type: 'graph',
+            layout: 'force',
+            animation: false,
+            label: {
+                normal: {
+                    position: 'right',
+                    formatter: '{b}'
+                }
+            },
+            draggable: true,
+            data: binary_json.nodes.map(function(node, idx) {
+                node.id = idx;
+                return node;
+            }),
+            categories: binary_json.categories,
+            edges: binary_json.links,
+            force: {
+                initLayout: 'circular',
+                repulsion: 20,
+                edgeLength: 50,
+                gravity: 0.1
+            },
+           },
+        ],
+     };
+    var _zr = my_echars_binary.getZr();
+    
+    var sample_count = binary_json.sample_count;
+    var type_count = binary_json.type_count;
+    var text = "一共" + type_count + "个类别\n" +  "一共" + sample_count + "个样本\n";
+
+    _zr.add(new echarts.graphic.Text({
+         style: {            
+       x: _zr.getWidth() * 0.1,
+       y: _zr.getHeight() * 0.1,
+       textFill:'#888',
+       text: text,
+       textAlign: 'center', 
+       textFont : 'bold 20px verdana'
+       }}  
+    ));
+
+
+     my_echars_binary.setOption(opinion);
+
+    })
+
+</script>
+{% endblock javascripts %}
+

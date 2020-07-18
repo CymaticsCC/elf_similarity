@@ -1,0 +1,4 @@
+FROM mysql:5.7
+
+MAINTAINER VChao
+copy create_db.sql /docker-entrypoint-initdb.d/

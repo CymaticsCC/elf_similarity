@@ -1,0 +1,619 @@
+07/17/2020 21:06:08 - INFO - Start doing the crontab job.
+07/17/2020 21:06:08 - INFO - start up loaders.
+07/17/2020 21:06:27 - INFO - Obtain loader urlhaus success.
+07/17/2020 21:06:28 - INFO - Obtain loader osint success.
+07/17/2020 21:06:28 - INFO - Obtain all loader using 20.80s.
+07/17/2020 21:06:28 - INFO - Working res->source:urlhaus count:787,source:osint count:1316
+07/17/2020 21:06:28 - INFO - Get 2103 urls to check
+07/17/2020 21:06:28 - INFO - open 128 threads working.
+07/17/2020 21:06:31 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/17/2020 21:06:36 - INFO - There are 0.32 tasks have been done.[url_staus_check]
+07/17/2020 21:06:41 - INFO - There are 0.57 tasks have been done.[url_staus_check]
+07/17/2020 21:06:46 - INFO - There are 0.79 tasks have been done.[url_staus_check]
+07/17/2020 21:06:51 - INFO - There are 0.92 tasks have been done.[url_staus_check]
+07/17/2020 21:06:56 - INFO - There are 0.98 tasks have been done.[url_staus_check]
+07/17/2020 21:07:01 - INFO - There are 1.00 tasks have been done.[url_staus_check]
+07/17/2020 21:07:03 - INFO - All 2103 urls have been checked using 33.63 s.
+07/17/2020 21:07:03 - INFO - start to download 1113 binary.
+07/17/2020 21:07:05 - INFO - open 128 threads to work.
+07/17/2020 21:07:05 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/17/2020 21:07:10 - INFO - There are 0.09 tasks have been done.[binary_download]
+07/17/2020 21:07:16 - INFO - There are 0.19 tasks have been done.[binary_download]
+07/17/2020 21:07:21 - INFO - There are 0.30 tasks have been done.[binary_download]
+07/17/2020 21:07:26 - INFO - There are 0.38 tasks have been done.[binary_download]
+07/17/2020 21:07:31 - INFO - There are 0.45 tasks have been done.[binary_download]
+07/17/2020 21:07:36 - INFO - There are 0.54 tasks have been done.[binary_download]
+07/17/2020 21:07:41 - INFO - There are 0.63 tasks have been done.[binary_download]
+07/17/2020 21:07:46 - INFO - There are 0.72 tasks have been done.[binary_download]
+07/17/2020 21:07:51 - INFO - There are 0.80 tasks have been done.[binary_download]
+07/17/2020 21:07:56 - INFO - There are 0.87 tasks have been done.[binary_download]
+07/17/2020 21:08:01 - INFO - There are 0.93 tasks have been done.[binary_download]
+07/17/2020 21:08:06 - INFO - There are 0.96 tasks have been done.[binary_download]
+07/17/2020 21:08:11 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/17/2020 21:08:16 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/17/2020 21:08:21 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:26 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:31 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:36 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:41 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:46 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:51 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:08:56 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:01 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:06 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:11 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:16 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:21 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:26 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:31 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:36 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:41 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:46 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:51 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:09:56 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:10:01 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:10:06 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 21:10:09 - INFO - download binaries 1028 successfully using 186.18 s.
+07/17/2020 21:10:09 - INFO - Start to insert 1024 binary records.
+07/17/2020 21:10:16 - INFO - Insert all binary records.
+07/17/2020 21:10:16 - INFO - Start insert ssdeep compare value
+07/17/2020 21:10:16 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:21 - INFO - There are 0.11 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:26 - INFO - There are 0.46 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:31 - INFO - There are 0.82 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:36 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:41 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/17/2020 21:10:43 - INFO - Insert all ssdeep compare value using 27.69 s.
+07/17/2020 21:10:43 - INFO - Ended the crontab job using 275.82 s.
+07/17/2020 22:00:01 - INFO - Start doing the crontab job.
+07/17/2020 22:00:01 - INFO - start up loaders.
+07/17/2020 22:00:28 - INFO - Obtain loader urlhaus success.
+07/17/2020 22:00:32 - INFO - Obtain loader osint success.
+07/17/2020 22:00:32 - INFO - Obtain all loader using 30.51s.
+07/17/2020 22:00:32 - INFO - Working res->source:urlhaus count:771,source:osint count:1316
+07/17/2020 22:00:32 - INFO - Get 2087 urls to check
+07/17/2020 22:00:32 - INFO - open 128 threads working.
+07/17/2020 22:00:34 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/17/2020 22:00:39 - INFO - There are 0.29 tasks have been done.[url_staus_check]
+07/17/2020 22:00:44 - INFO - There are 0.50 tasks have been done.[url_staus_check]
+07/17/2020 22:00:49 - INFO - There are 0.71 tasks have been done.[url_staus_check]
+07/17/2020 22:00:54 - INFO - There are 0.90 tasks have been done.[url_staus_check]
+07/17/2020 22:00:59 - INFO - There are 0.97 tasks have been done.[url_staus_check]
+07/17/2020 22:01:04 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/17/2020 22:01:08 - INFO - All 2087 urls have been checked using 35.74 s.
+07/17/2020 22:01:08 - INFO - start to download 1093 binary.
+07/17/2020 22:01:11 - INFO - open 128 threads to work.
+07/17/2020 22:01:11 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/17/2020 22:01:16 - INFO - There are 0.07 tasks have been done.[binary_download]
+07/17/2020 22:01:21 - INFO - There are 0.13 tasks have been done.[binary_download]
+07/17/2020 22:01:26 - INFO - There are 0.21 tasks have been done.[binary_download]
+07/17/2020 22:01:31 - INFO - There are 0.28 tasks have been done.[binary_download]
+07/17/2020 22:01:36 - INFO - There are 0.37 tasks have been done.[binary_download]
+07/17/2020 22:01:41 - INFO - There are 0.44 tasks have been done.[binary_download]
+07/17/2020 22:01:46 - INFO - There are 0.52 tasks have been done.[binary_download]
+07/17/2020 22:01:51 - INFO - There are 0.59 tasks have been done.[binary_download]
+07/17/2020 22:01:56 - INFO - There are 0.67 tasks have been done.[binary_download]
+07/17/2020 22:02:01 - INFO - There are 0.74 tasks have been done.[binary_download]
+07/17/2020 22:02:06 - INFO - There are 0.80 tasks have been done.[binary_download]
+07/17/2020 22:02:11 - INFO - There are 0.86 tasks have been done.[binary_download]
+07/17/2020 22:02:16 - INFO - There are 0.91 tasks have been done.[binary_download]
+07/17/2020 22:02:21 - INFO - There are 0.95 tasks have been done.[binary_download]
+07/17/2020 22:02:26 - INFO - There are 0.97 tasks have been done.[binary_download]
+07/17/2020 22:02:31 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/17/2020 22:02:36 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/17/2020 22:02:41 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/17/2020 22:02:46 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:02:51 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:02:56 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:01 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:06 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:11 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:16 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:21 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:26 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:31 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:36 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/17/2020 22:03:36 - INFO - download binaries 968 successfully using 148.03 s.
+07/17/2020 22:03:36 - INFO - Start to insert 900 binary records.
+07/17/2020 22:03:42 - INFO - Insert all binary records.
+07/17/2020 22:03:42 - INFO - Start insert ssdeep compare value
+07/17/2020 22:03:42 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/17/2020 22:03:47 - INFO - There are 0.10 tasks have been done.[ss_deep_insert]
+07/17/2020 22:03:52 - INFO - There are 0.48 tasks have been done.[ss_deep_insert]
+07/17/2020 22:03:57 - INFO - There are 0.85 tasks have been done.[ss_deep_insert]
+07/17/2020 22:04:02 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/17/2020 22:04:07 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/17/2020 22:04:09 - INFO - Insert all ssdeep compare value using 27.02 s.
+07/17/2020 22:04:09 - INFO - Ended the crontab job using 247.88 s.
+07/18/2020 00:00:02 - INFO - Start doing the crontab job.
+07/18/2020 00:00:02 - INFO - start up loaders.
+07/18/2020 00:00:28 - INFO - Obtain loader urlhaus success.
+07/18/2020 00:00:46 - INFO - Obtain loader osint success.
+07/18/2020 00:00:46 - INFO - Obtain all loader using 44.42s.
+07/18/2020 00:00:46 - INFO - Working res->source:urlhaus count:779,source:osint count:1316
+07/18/2020 00:00:46 - INFO - Get 2095 urls to check
+07/18/2020 00:00:46 - INFO - open 128 threads working.
+07/18/2020 00:00:49 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 00:00:54 - INFO - There are 0.25 tasks have been done.[url_staus_check]
+07/18/2020 00:00:59 - INFO - There are 0.46 tasks have been done.[url_staus_check]
+07/18/2020 00:01:04 - INFO - There are 0.66 tasks have been done.[url_staus_check]
+07/18/2020 00:01:09 - INFO - There are 0.86 tasks have been done.[url_staus_check]
+07/18/2020 00:01:14 - INFO - There are 0.96 tasks have been done.[url_staus_check]
+07/18/2020 00:01:19 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 00:01:25 - INFO - All 2095 urls have been checked using 37.59 s.
+07/18/2020 00:01:25 - INFO - start to download 1094 binary.
+07/18/2020 00:01:27 - INFO - open 128 threads to work.
+07/18/2020 00:01:27 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 00:01:32 - INFO - There are 0.05 tasks have been done.[binary_download]
+07/18/2020 00:01:37 - INFO - There are 0.15 tasks have been done.[binary_download]
+07/18/2020 00:01:42 - INFO - There are 0.22 tasks have been done.[binary_download]
+07/18/2020 00:01:47 - INFO - There are 0.28 tasks have been done.[binary_download]
+07/18/2020 00:01:52 - INFO - There are 0.34 tasks have been done.[binary_download]
+07/18/2020 00:01:57 - INFO - There are 0.41 tasks have been done.[binary_download]
+07/18/2020 00:02:02 - INFO - There are 0.47 tasks have been done.[binary_download]
+07/18/2020 00:02:07 - INFO - There are 0.52 tasks have been done.[binary_download]
+07/18/2020 00:02:12 - INFO - There are 0.58 tasks have been done.[binary_download]
+07/18/2020 00:02:17 - INFO - There are 0.63 tasks have been done.[binary_download]
+07/18/2020 00:02:22 - INFO - There are 0.69 tasks have been done.[binary_download]
+07/18/2020 00:02:27 - INFO - There are 0.75 tasks have been done.[binary_download]
+07/18/2020 00:02:32 - INFO - There are 0.82 tasks have been done.[binary_download]
+07/18/2020 00:02:37 - INFO - There are 0.87 tasks have been done.[binary_download]
+07/18/2020 00:02:42 - INFO - There are 0.92 tasks have been done.[binary_download]
+07/18/2020 00:02:47 - INFO - There are 0.95 tasks have been done.[binary_download]
+07/18/2020 00:02:52 - INFO - There are 0.97 tasks have been done.[binary_download]
+07/18/2020 00:02:57 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 00:03:03 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 00:03:08 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 00:03:13 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:18 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:23 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:28 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:33 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:38 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:43 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:48 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:53 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:03:58 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:03 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:08 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:13 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:18 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:23 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:28 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:33 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:38 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:43 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:48 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:53 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:04:58 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:05:03 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 00:05:06 - INFO - download binaries 915 successfully using 221.06 s.
+07/18/2020 00:05:06 - INFO - Start to insert 968 binary records.
+07/18/2020 00:05:12 - INFO - Insert all binary records.
+07/18/2020 00:05:12 - INFO - Start insert ssdeep compare value
+07/18/2020 00:05:12 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:17 - INFO - There are 0.09 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:22 - INFO - There are 0.44 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:27 - INFO - There are 0.78 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:32 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:37 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 00:05:40 - INFO - Insert all ssdeep compare value using 28.14 s.
+07/18/2020 00:05:40 - INFO - Ended the crontab job using 338.16 s.
+07/18/2020 02:00:01 - INFO - Start doing the crontab job.
+07/18/2020 02:00:01 - INFO - start up loaders.
+07/18/2020 02:00:03 - INFO - Obtain loader urlhaus success.
+07/18/2020 02:00:05 - INFO - Obtain loader osint success.
+07/18/2020 02:00:05 - INFO - Obtain all loader using 3.79s.
+07/18/2020 02:00:05 - INFO - Working res->source:urlhaus count:763,source:osint count:1316
+07/18/2020 02:00:05 - INFO - Get 2079 urls to check
+07/18/2020 02:00:05 - INFO - open 128 threads working.
+07/18/2020 02:00:08 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 02:00:13 - INFO - There are 0.30 tasks have been done.[url_staus_check]
+07/18/2020 02:00:18 - INFO - There are 0.50 tasks have been done.[url_staus_check]
+07/18/2020 02:00:23 - INFO - There are 0.70 tasks have been done.[url_staus_check]
+07/18/2020 02:00:28 - INFO - There are 0.91 tasks have been done.[url_staus_check]
+07/18/2020 02:00:33 - INFO - There are 0.97 tasks have been done.[url_staus_check]
+07/18/2020 02:00:38 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 02:00:41 - INFO - All 2079 urls have been checked using 35.16 s.
+07/18/2020 02:00:41 - INFO - start to download 1040 binary.
+07/18/2020 02:00:44 - INFO - open 128 threads to work.
+07/18/2020 02:00:44 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 02:00:49 - INFO - There are 0.13 tasks have been done.[binary_download]
+07/18/2020 02:00:54 - INFO - There are 0.23 tasks have been done.[binary_download]
+07/18/2020 02:00:59 - INFO - There are 0.33 tasks have been done.[binary_download]
+07/18/2020 02:01:04 - INFO - There are 0.42 tasks have been done.[binary_download]
+07/18/2020 02:01:09 - INFO - There are 0.50 tasks have been done.[binary_download]
+07/18/2020 02:01:14 - INFO - There are 0.56 tasks have been done.[binary_download]
+07/18/2020 02:01:19 - INFO - There are 0.64 tasks have been done.[binary_download]
+07/18/2020 02:01:24 - INFO - There are 0.71 tasks have been done.[binary_download]
+07/18/2020 02:01:29 - INFO - There are 0.80 tasks have been done.[binary_download]
+07/18/2020 02:01:34 - INFO - There are 0.87 tasks have been done.[binary_download]
+07/18/2020 02:01:39 - INFO - There are 0.92 tasks have been done.[binary_download]
+07/18/2020 02:01:44 - INFO - There are 0.95 tasks have been done.[binary_download]
+07/18/2020 02:01:49 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 02:01:54 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 02:01:59 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 02:02:04 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 02:02:09 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 02:02:14 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 02:02:17 - INFO - download binaries 823 successfully using 96.09 s.
+07/18/2020 02:02:17 - INFO - Start to insert 787 binary records.
+07/18/2020 02:02:22 - INFO - Insert all binary records.
+07/18/2020 02:02:22 - INFO - Start insert ssdeep compare value
+07/18/2020 02:02:22 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:27 - INFO - There are 0.09 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:32 - INFO - There are 0.42 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:37 - INFO - There are 0.76 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:42 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:47 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 02:02:51 - INFO - Insert all ssdeep compare value using 28.62 s.
+07/18/2020 02:02:51 - INFO - Ended the crontab job using 169.51 s.
+07/18/2020 04:00:02 - INFO - Start doing the crontab job.
+07/18/2020 04:00:02 - INFO - start up loaders.
+07/18/2020 04:00:04 - INFO - Obtain loader urlhaus success.
+07/18/2020 04:00:06 - INFO - Obtain loader osint success.
+07/18/2020 04:00:06 - INFO - Obtain all loader using 4.07s.
+07/18/2020 04:00:06 - INFO - Working res->source:urlhaus count:777,source:osint count:1316
+07/18/2020 04:00:06 - INFO - Get 2093 urls to check
+07/18/2020 04:00:06 - INFO - open 128 threads working.
+07/18/2020 04:00:09 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 04:00:14 - INFO - There are 0.57 tasks have been done.[url_staus_check]
+07/18/2020 04:00:19 - INFO - There are 0.87 tasks have been done.[url_staus_check]
+07/18/2020 04:00:24 - INFO - There are 0.96 tasks have been done.[url_staus_check]
+07/18/2020 04:00:29 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 04:00:33 - INFO - All 2093 urls have been checked using 25.77 s.
+07/18/2020 04:00:33 - INFO - start to download 1149 binary.
+07/18/2020 04:00:35 - INFO - open 128 threads to work.
+07/18/2020 04:00:35 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 04:00:40 - INFO - There are 0.30 tasks have been done.[binary_download]
+07/18/2020 04:00:45 - INFO - There are 0.58 tasks have been done.[binary_download]
+07/18/2020 04:00:50 - INFO - There are 0.84 tasks have been done.[binary_download]
+07/18/2020 04:00:55 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 04:01:00 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:05 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:10 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:15 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:20 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:25 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 04:01:28 - INFO - download binaries 1099 successfully using 54.76 s.
+07/18/2020 04:01:28 - INFO - Start to insert 1079 binary records.
+07/18/2020 04:01:34 - INFO - Insert all binary records.
+07/18/2020 04:01:34 - INFO - Start insert ssdeep compare value
+07/18/2020 04:01:34 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 04:01:39 - INFO - There are 0.07 tasks have been done.[ss_deep_insert]
+07/18/2020 04:01:44 - INFO - There are 0.39 tasks have been done.[ss_deep_insert]
+07/18/2020 04:01:49 - INFO - There are 0.71 tasks have been done.[ss_deep_insert]
+07/18/2020 04:01:54 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 04:01:59 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 04:02:04 - INFO - Insert all ssdeep compare value using 29.55 s.
+07/18/2020 04:02:04 - INFO - Ended the crontab job using 121.86 s.
+07/18/2020 06:00:02 - INFO - Start doing the crontab job.
+07/18/2020 06:00:02 - INFO - start up loaders.
+07/18/2020 06:00:04 - INFO - Obtain loader urlhaus success.
+07/18/2020 06:00:06 - INFO - Obtain loader osint success.
+07/18/2020 06:00:06 - INFO - Obtain all loader using 4.12s.
+07/18/2020 06:00:06 - INFO - Working res->source:urlhaus count:791,source:osint count:1316
+07/18/2020 06:00:06 - INFO - Get 2107 urls to check
+07/18/2020 06:00:06 - INFO - open 128 threads working.
+07/18/2020 06:00:08 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 06:00:13 - INFO - There are 0.56 tasks have been done.[url_staus_check]
+07/18/2020 06:00:18 - INFO - There are 0.87 tasks have been done.[url_staus_check]
+07/18/2020 06:00:24 - INFO - There are 0.95 tasks have been done.[url_staus_check]
+07/18/2020 06:00:29 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 06:00:34 - INFO - There are 1.00 tasks have been done.[url_staus_check]
+07/18/2020 06:00:35 - INFO - All 2107 urls have been checked using 27.72 s.
+07/18/2020 06:00:35 - INFO - start to download 1177 binary.
+07/18/2020 06:00:37 - INFO - open 128 threads to work.
+07/18/2020 06:00:37 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 06:00:42 - INFO - There are 0.32 tasks have been done.[binary_download]
+07/18/2020 06:00:47 - INFO - There are 0.60 tasks have been done.[binary_download]
+07/18/2020 06:00:52 - INFO - There are 0.88 tasks have been done.[binary_download]
+07/18/2020 06:00:57 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 06:01:02 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 06:01:07 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 06:01:12 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 06:01:14 - INFO - download binaries 1119 successfully using 39.51 s.
+07/18/2020 06:01:14 - INFO - Start to insert 1099 binary records.
+07/18/2020 06:01:21 - INFO - Insert all binary records.
+07/18/2020 06:01:21 - INFO - Start insert ssdeep compare value
+07/18/2020 06:01:21 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:26 - INFO - There are 0.06 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:31 - INFO - There are 0.36 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:36 - INFO - There are 0.65 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:41 - INFO - There are 0.95 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:46 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:51 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 06:01:52 - INFO - Insert all ssdeep compare value using 30.89 s.
+07/18/2020 06:01:52 - INFO - Ended the crontab job using 110.23 s.
+07/18/2020 08:00:02 - INFO - Start doing the crontab job.
+07/18/2020 08:00:02 - INFO - start up loaders.
+07/18/2020 08:00:09 - INFO - Obtain loader urlhaus success.
+07/18/2020 08:00:11 - INFO - Obtain loader osint success.
+07/18/2020 08:00:11 - INFO - Obtain all loader using 8.95s.
+07/18/2020 08:00:11 - INFO - Working res->source:urlhaus count:803,source:osint count:1316
+07/18/2020 08:00:11 - INFO - Get 2119 urls to check
+07/18/2020 08:00:11 - INFO - open 128 threads working.
+07/18/2020 08:00:13 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 08:00:18 - INFO - There are 0.51 tasks have been done.[url_staus_check]
+07/18/2020 08:00:23 - INFO - There are 0.84 tasks have been done.[url_staus_check]
+07/18/2020 08:00:28 - INFO - There are 0.94 tasks have been done.[url_staus_check]
+07/18/2020 08:00:33 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 08:00:39 - INFO - All 2119 urls have been checked using 26.82 s.
+07/18/2020 08:00:39 - INFO - start to download 1172 binary.
+07/18/2020 08:00:41 - INFO - open 128 threads to work.
+07/18/2020 08:00:41 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 08:00:46 - INFO - There are 0.22 tasks have been done.[binary_download]
+07/18/2020 08:00:51 - INFO - There are 0.42 tasks have been done.[binary_download]
+07/18/2020 08:00:56 - INFO - There are 0.59 tasks have been done.[binary_download]
+07/18/2020 08:01:01 - INFO - There are 0.77 tasks have been done.[binary_download]
+07/18/2020 08:01:06 - INFO - There are 0.94 tasks have been done.[binary_download]
+07/18/2020 08:01:11 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 08:01:16 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 08:01:21 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 08:01:26 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:31 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:36 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:41 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:46 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:51 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:01:56 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 08:02:01 - INFO - download binaries 1114 successfully using 81.79 s.
+07/18/2020 08:02:01 - INFO - Start to insert 1119 binary records.
+07/18/2020 08:02:08 - INFO - Insert all binary records.
+07/18/2020 08:02:08 - INFO - Start insert ssdeep compare value
+07/18/2020 08:02:08 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:13 - INFO - There are 0.05 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:18 - INFO - There are 0.30 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:23 - INFO - There are 0.57 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:28 - INFO - There are 0.84 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:33 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:38 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 08:02:42 - INFO - Insert all ssdeep compare value using 33.15 s.
+07/18/2020 08:02:42 - INFO - Ended the crontab job using 159.69 s.
+07/18/2020 10:00:01 - INFO - Start doing the crontab job.
+07/18/2020 10:00:01 - INFO - start up loaders.
+07/18/2020 10:00:03 - INFO - Obtain loader urlhaus success.
+07/18/2020 10:00:05 - INFO - Obtain loader osint success.
+07/18/2020 10:00:05 - INFO - Obtain all loader using 3.90s.
+07/18/2020 10:00:05 - INFO - Working res->source:urlhaus count:755,source:osint count:1316
+07/18/2020 10:00:05 - INFO - Get 2071 urls to check
+07/18/2020 10:00:05 - INFO - open 128 threads working.
+07/18/2020 10:00:08 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 10:00:13 - INFO - There are 0.36 tasks have been done.[url_staus_check]
+07/18/2020 10:00:18 - INFO - There are 0.62 tasks have been done.[url_staus_check]
+07/18/2020 10:00:23 - INFO - There are 0.84 tasks have been done.[url_staus_check]
+07/18/2020 10:00:28 - INFO - There are 0.95 tasks have been done.[url_staus_check]
+07/18/2020 10:00:33 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 10:00:38 - INFO - All 2071 urls have been checked using 32.25 s.
+07/18/2020 10:00:38 - INFO - start to download 1084 binary.
+07/18/2020 10:00:41 - INFO - open 128 threads to work.
+07/18/2020 10:00:41 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 10:00:46 - INFO - There are 0.14 tasks have been done.[binary_download]
+07/18/2020 10:00:51 - INFO - There are 0.30 tasks have been done.[binary_download]
+07/18/2020 10:00:56 - INFO - There are 0.45 tasks have been done.[binary_download]
+07/18/2020 10:01:01 - INFO - There are 0.60 tasks have been done.[binary_download]
+07/18/2020 10:01:06 - INFO - There are 0.73 tasks have been done.[binary_download]
+07/18/2020 10:01:11 - INFO - There are 0.88 tasks have been done.[binary_download]
+07/18/2020 10:01:16 - INFO - There are 0.95 tasks have been done.[binary_download]
+07/18/2020 10:01:21 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 10:01:26 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:01:31 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:01:36 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:01:41 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:01:46 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:01:51 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:01:56 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:02:01 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:02:06 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:02:11 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:02:14 - INFO - download binaries 1038 successfully using 95.97 s.
+07/18/2020 10:02:14 - INFO - Start to insert 1114 binary records.
+07/18/2020 10:02:21 - INFO - Insert all binary records.
+07/18/2020 10:02:21 - INFO - Start insert ssdeep compare value
+07/18/2020 10:02:21 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:26 - INFO - There are 0.04 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:31 - INFO - There are 0.29 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:36 - INFO - There are 0.54 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:41 - INFO - There are 0.79 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:46 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:51 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:02:55 - INFO - Insert all ssdeep compare value using 34.18 s.
+07/18/2020 10:02:55 - INFO - Ended the crontab job using 174.25 s.
+07/18/2020 10:15:59 - INFO - Start doing the crontab job.
+07/18/2020 10:15:59 - INFO - start up loaders.
+07/18/2020 10:16:02 - INFO - Obtain loader urlhaus success.
+07/18/2020 10:16:03 - INFO - Obtain loader osint success.
+07/18/2020 10:16:03 - INFO - Obtain all loader using 3.94s.
+07/18/2020 10:16:03 - INFO - Working res->source:urlhaus count:772,source:osint count:1316
+07/18/2020 10:16:03 - INFO - Get 2088 urls to check
+07/18/2020 10:16:03 - INFO - open 128 threads working.
+07/18/2020 10:16:06 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 10:16:11 - INFO - There are 0.36 tasks have been done.[url_staus_check]
+07/18/2020 10:16:16 - INFO - There are 0.63 tasks have been done.[url_staus_check]
+07/18/2020 10:16:21 - INFO - There are 0.83 tasks have been done.[url_staus_check]
+07/18/2020 10:16:26 - INFO - There are 0.95 tasks have been done.[url_staus_check]
+07/18/2020 10:16:31 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 10:16:37 - INFO - All 2088 urls have been checked using 32.52 s.
+07/18/2020 10:16:37 - INFO - start to download 1113 binary.
+07/18/2020 10:16:39 - INFO - open 128 threads to work.
+07/18/2020 10:16:39 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 10:16:44 - INFO - There are 0.13 tasks have been done.[binary_download]
+07/18/2020 10:16:49 - INFO - There are 0.29 tasks have been done.[binary_download]
+07/18/2020 10:16:54 - INFO - There are 0.41 tasks have been done.[binary_download]
+07/18/2020 10:16:59 - INFO - There are 0.53 tasks have been done.[binary_download]
+07/18/2020 10:17:04 - INFO - There are 0.63 tasks have been done.[binary_download]
+07/18/2020 10:17:09 - INFO - There are 0.70 tasks have been done.[binary_download]
+07/18/2020 10:17:14 - INFO - There are 0.76 tasks have been done.[binary_download]
+07/18/2020 10:17:19 - INFO - There are 0.84 tasks have been done.[binary_download]
+07/18/2020 10:17:24 - INFO - There are 0.92 tasks have been done.[binary_download]
+07/18/2020 10:17:29 - INFO - There are 0.96 tasks have been done.[binary_download]
+07/18/2020 10:17:34 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 10:17:39 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:17:44 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:17:49 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:17:54 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:17:59 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:18:04 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:18:09 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:18:13 - INFO - download binaries 1022 successfully using 95.86 s.
+07/18/2020 10:18:13 - INFO - Start to insert 910 binary records.
+07/18/2020 10:18:18 - INFO - Insert all binary records.
+07/18/2020 10:18:18 - INFO - Start insert ssdeep compare value
+07/18/2020 10:18:18 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:23 - INFO - There are 0.04 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:28 - INFO - There are 0.29 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:33 - INFO - There are 0.54 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:38 - INFO - There are 0.79 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:43 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:48 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:18:52 - INFO - Insert all ssdeep compare value using 34.19 s.
+07/18/2020 10:18:52 - INFO - Ended the crontab job using 173.13 s.
+07/18/2020 10:20:16 - INFO - Start doing the crontab job.
+07/18/2020 10:20:16 - INFO - start up loaders.
+07/18/2020 10:20:27 - INFO - Obtain loader urlhaus success.
+07/18/2020 10:20:28 - INFO - Obtain loader osint success.
+07/18/2020 10:20:28 - INFO - Obtain all loader using 12.13s.
+07/18/2020 10:20:28 - INFO - Working res->source:urlhaus count:772,source:osint count:1316
+07/18/2020 10:20:28 - INFO - Get 2088 urls to check
+07/18/2020 10:20:28 - INFO - open 128 threads working.
+07/18/2020 10:20:31 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 10:20:36 - INFO - There are 0.37 tasks have been done.[url_staus_check]
+07/18/2020 10:20:41 - INFO - There are 0.61 tasks have been done.[url_staus_check]
+07/18/2020 10:20:46 - INFO - There are 0.82 tasks have been done.[url_staus_check]
+07/18/2020 10:20:51 - INFO - There are 0.95 tasks have been done.[url_staus_check]
+07/18/2020 10:20:56 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 10:21:01 - INFO - There are 1.00 tasks have been done.[url_staus_check]
+07/18/2020 10:21:02 - INFO - All 2088 urls have been checked using 32.70 s.
+07/18/2020 10:21:02 - INFO - start to download 1117 binary.
+07/18/2020 10:21:05 - INFO - open 128 threads to work.
+07/18/2020 10:21:05 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 10:21:10 - INFO - There are 0.12 tasks have been done.[binary_download]
+07/18/2020 10:21:15 - INFO - There are 0.23 tasks have been done.[binary_download]
+07/18/2020 10:22:24 - INFO - Start doing the crontab job.
+07/18/2020 10:22:24 - INFO - start up loaders.
+07/18/2020 10:22:31 - INFO - Obtain loader urlhaus success.
+07/18/2020 10:22:34 - INFO - Obtain loader osint success.
+07/18/2020 10:22:34 - INFO - Obtain all loader using 9.96s.
+07/18/2020 10:22:34 - INFO - Working res->source:urlhaus count:754,source:osint count:1316
+07/18/2020 10:22:34 - INFO - Get 2070 urls to check
+07/18/2020 10:22:34 - INFO - open 128 threads working.
+07/18/2020 10:22:36 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 10:22:41 - INFO - There are 0.32 tasks have been done.[url_staus_check]
+07/18/2020 10:22:46 - INFO - There are 0.56 tasks have been done.[url_staus_check]
+07/18/2020 10:22:51 - INFO - There are 0.77 tasks have been done.[url_staus_check]
+07/18/2020 10:22:56 - INFO - There are 0.94 tasks have been done.[url_staus_check]
+07/18/2020 10:23:01 - INFO - There are 0.98 tasks have been done.[url_staus_check]
+07/18/2020 10:23:07 - INFO - There are 1.00 tasks have been done.[url_staus_check]
+07/18/2020 10:23:09 - INFO - All 2070 urls have been checked using 34.01 s.
+07/18/2020 10:23:09 - INFO - start to download 1889 binary.
+07/18/2020 10:23:11 - INFO - open 128 threads to work.
+07/18/2020 10:23:11 - INFO - There are 0.00 tasks have been done.[binary_download]
+07/18/2020 10:23:16 - INFO - There are 0.05 tasks have been done.[binary_download]
+07/18/2020 10:23:21 - INFO - There are 0.10 tasks have been done.[binary_download]
+07/18/2020 10:23:27 - INFO - There are 0.15 tasks have been done.[binary_download]
+07/18/2020 10:23:32 - INFO - There are 0.21 tasks have been done.[binary_download]
+07/18/2020 10:23:37 - INFO - There are 0.27 tasks have been done.[binary_download]
+07/18/2020 10:23:42 - INFO - There are 0.33 tasks have been done.[binary_download]
+07/18/2020 10:23:47 - INFO - There are 0.38 tasks have been done.[binary_download]
+07/18/2020 10:23:52 - INFO - There are 0.44 tasks have been done.[binary_download]
+07/18/2020 10:23:57 - INFO - There are 0.51 tasks have been done.[binary_download]
+07/18/2020 10:24:02 - INFO - There are 0.58 tasks have been done.[binary_download]
+07/18/2020 10:24:07 - INFO - There are 0.66 tasks have been done.[binary_download]
+07/18/2020 10:24:12 - INFO - There are 0.72 tasks have been done.[binary_download]
+07/18/2020 10:24:17 - INFO - There are 0.78 tasks have been done.[binary_download]
+07/18/2020 10:24:22 - INFO - There are 0.84 tasks have been done.[binary_download]
+07/18/2020 10:24:27 - INFO - There are 0.89 tasks have been done.[binary_download]
+07/18/2020 10:24:32 - INFO - There are 0.94 tasks have been done.[binary_download]
+07/18/2020 10:24:37 - INFO - There are 0.97 tasks have been done.[binary_download]
+07/18/2020 10:24:42 - INFO - There are 0.98 tasks have been done.[binary_download]
+07/18/2020 10:24:47 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:24:52 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:24:57 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:02 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:07 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:12 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:17 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:22 - INFO - There are 0.99 tasks have been done.[binary_download]
+07/18/2020 10:25:27 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:32 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:37 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:42 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:47 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:52 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:25:57 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:02 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:07 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:12 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:17 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:22 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:27 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:32 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:37 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:42 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:47 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:52 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:26:57 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:02 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:07 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:12 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:17 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:22 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:27 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:32 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:37 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:42 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:47 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:52 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:27:57 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:02 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:07 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:12 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:17 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:22 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:27 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:32 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:37 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:42 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:47 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:52 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:28:57 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:02 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:07 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:12 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:17 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:22 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:27 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:32 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:37 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:42 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:48 - INFO - There are 1.00 tasks have been done.[binary_download]
+07/18/2020 10:29:48 - INFO - download binaries 1738 successfully using 399.14 s.
+07/18/2020 10:29:48 - INFO - Start to insert 1920 binary records.
+07/18/2020 10:30:00 - INFO - Insert all binary records.
+07/18/2020 10:30:00 - INFO - Start insert ssdeep compare value
+07/18/2020 10:30:00 - INFO - There are 0.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:05 - INFO - There are 0.08 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:10 - INFO - There are 0.41 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:15 - INFO - There are 0.72 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:20 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:25 - INFO - There are 1.00 tasks have been done.[ss_deep_insert]
+07/18/2020 10:30:29 - INFO - Insert all ssdeep compare value using 29.33 s.
+07/18/2020 10:30:29 - INFO - Ended the crontab job using 485.51 s.
+07/18/2020 10:40:47 - INFO - Start doing the crontab job.
+07/18/2020 10:40:47 - INFO - start up loaders.
+07/18/2020 10:41:02 - INFO - Obtain loader urlhaus success.
+07/18/2020 10:41:04 - INFO - Obtain loader osint success.
+07/18/2020 10:41:04 - INFO - Obtain all loader using 16.48s.
+07/18/2020 10:41:04 - INFO - Working res->source:urlhaus count:764,source:osint count:1316
+07/18/2020 10:41:04 - INFO - Get 2080 urls to check
+07/18/2020 10:41:04 - INFO - open 128 threads working.
+07/18/2020 10:41:07 - INFO - There are 0.00 tasks have been done.[url_staus_check]
+07/18/2020 10:41:12 - INFO - There are 0.38 tasks have been done.[url_staus_check]
+07/18/2020 10:41:17 - INFO - There are 0.64 tasks have been done.[url_staus_check]
+07/18/2020 10:41:22 - INFO - There are 0.88 tasks have been done.[url_staus_check]
+07/18/2020 10:41:28 - INFO - There are 0.97 tasks have been done.[url_staus_check]
+07/18/2020 10:41:33 - INFO - There are 0.99 tasks have been done.[url_staus_check]
+07/18/2020 10:41:37 - INFO - All 2080 urls have been checked using 31.88 s.
+07/18/2020 10:41:37 - INFO - start to download 1148 binary.
+07/18/2020 10:41:39 - INFO - open 128 threads to work.
+07/18/2020 10:41:39 - INFO - There are 0.00 tasks have been done.[binary_download]

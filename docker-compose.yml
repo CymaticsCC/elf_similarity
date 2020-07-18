@@ -1,0 +1,33 @@
+#yaml setting
+
+version: '3'
+services:
+    web:
+        build: 
+            context: .
+            dockerfile: Dockerfile.django
+        container_name: django
+        image: binary_django:0.1
+        volumes:
+            - "./working.log:/home/app/src/ioc_binary/working.log"
+        ports:
+            - "8188:8188"
+        depends_on:
+            - "db"
+        restart: always
+        command: ["./entry_point.sh","-d","mysql:3306","-c","sh run_web.sh"]
+
+    db:
+        build:
+            context: .
+            dockerfile: Dockerfile.mysql
+        container_name: mysql
+        image: binary_mysql:0.1
+        restart: always
+        volumes:
+            - "./mysql_data/:/var/lib/mysql"
+            - "./mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf"
+        environment:
+            MYSQL_ROOT_PASSWORD: zheshiyigemima
+    
+
