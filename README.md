@@ -1,4 +1,4 @@
-本篇文章讲解内容参考文章[恶意ELF二进制文件相似度比较及可视化](https://www.freebuf.com/articles/system/243764.html)
+讲解内容参考文章[恶意ELF二进制文件相似度比较及可视化](https://www.freebuf.com/articles/system/243764.html)
 
 # ELF_similarity
 
